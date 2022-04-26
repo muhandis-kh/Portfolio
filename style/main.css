@@ -373,7 +373,7 @@ li{
    color: #070707;
    display: flex;
    justify-content: flex-end;
-
+   right: 20px;
 }
 
 
@@ -414,6 +414,8 @@ li{
       margin-left: 20px;
       margin-right: 20px;
    }
+
+
 
 }
 
@@ -641,6 +643,7 @@ li{
 
    .top-link{
       top: -20px;
+      right: 10px;
 
    }
 
