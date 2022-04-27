@@ -5,7 +5,27 @@
    padding: 0;
    box-sizing: border-box;
    scroll-behavior: smooth;
-   font-family: 'Courier New', Courier, monospace;
+   font-family: 'Odudo Light', Courier, monospace;
+}
+
+@font-face {
+   font-family: "Odudo Bold";
+   src: url(../fonts/OdudoMono-Bold.woff);
+}
+
+@font-face {
+   font-family: "Odudo regular";
+   src: url(../fonts/OdudoMono-Regular.woff);
+}
+
+@font-face {
+   font-family: "Odudo Semibold";
+   src: url(../fonts/OdudoMono-SemiBold.woff);
+}
+
+@font-face {
+   font-family: "Odudo Light";
+   src: url(../fonts/OdudoMono-Light.woff);
 }
 
 .main-container{
@@ -114,6 +134,7 @@ li{
    font-size: 48px;
    line-height: 59px;
    color: #070707;
+   font-family: "Odudo regular", monospace;
 }
 
 .hero-text__position{
@@ -654,7 +675,8 @@ li{
 
    .hero-text__name{
       line-height: 1.8rem;
-      height: 60px;
+      height: 80px;
+      padding-bottom: 20px;
    }
 
    .hero-text__position{
