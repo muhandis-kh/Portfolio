@@ -369,7 +369,7 @@ li{
 .top-link{
    position: relative;
    z-index: 12;
-   top: -50px;
+   top: -70px;
    display: flex;
    justify-content: flex-end;
    right: 20px;
@@ -687,7 +687,7 @@ li{
    }
 
    .top-link{
-      top: -20px;
+      top: -60px;
       right: 10px;
 
    }
