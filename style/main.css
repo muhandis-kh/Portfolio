@@ -384,11 +384,11 @@ li{
 .footer-nav{
    max-width: 600px;
    width: 100%;
-   height: 70px;
+   height: 66px;
    bottom: 0px;
    z-index: 101;
    display: none;
-   background-color: #FFFFFF;
+   background-color: rgba(256, 256, 256, 0.95);
    box-shadow: 0 9px 6px 10px #070707;
    padding-top: 10px;
 
@@ -483,7 +483,7 @@ li{
    }
 
    .contact{
-      padding-top: 0;
+      padding-top: 30px;
    }
 
 }
@@ -523,7 +523,7 @@ li{
    /* HERO */
 
    .hero{
-      padding-top: 70px;
+      padding-top: 40px;
    }
 
    .hero-text{
@@ -555,15 +555,24 @@ li{
    }
 
 
+   /* ABOUT ME */
+
+   .about-me{
+      padding: 50px 0;
+      margin-top: 50px;
+   }
+
    /* SKILLS */
 
    .skills{
       padding-bottom: 70px;
+      padding-top: 50px;
    }
 
    .program-items{
       grid-template-columns: repeat(2, 1fr);
       gap: 10px;
+      margin-top: 40px;
    }
 
    .program-item{
@@ -576,12 +585,16 @@ li{
 
    /* PORTFOLIO SECTION */
 
+   .portfolio{
+      padding-bottom: 30px;
+   }
 
    .example-img{
       max-width: 450px;
       height: 300px;
       margin-left: 10px;
       margin-right: 10px;
+      object-position:  40% 20%;
    }
 
    .carousel-indicators{
@@ -595,7 +608,6 @@ li{
    .footer-nav{
       display: block;
       position: fixed;
-
    }
 
    .width-100{
@@ -606,7 +618,10 @@ li{
 
 @media screen and (max-width: 500px) {
 
-      /* PORTFOLIO SECTION */
+
+
+
+   /* PORTFOLIO SECTION */
 
 
       .example-img{
@@ -626,6 +641,7 @@ li{
 
       .footer-nav{
          padding-top: 5px;
+         height: 60px;
       }
 
       .footer-nav__item{
@@ -652,8 +668,17 @@ li{
 
    /* SKILLS  */
 
+   .skills{
+      padding-top: 30px;
+      padding-bottom: 40px;
+   }
+
    .skills-subtitle{
       font-size: 14px;
+   }
+
+   .program-items{
+      margin-top: 20px;
    }
 
    .program-item__rate i {
@@ -662,15 +687,13 @@ li{
 
    /* PORTFOLIO */
 
-      /* PORTFOLIO SECTION */
-
-
    .example-img{
       max-width: 350px;
-      height: 200px;
+      height: 150px;
       margin-left: 10px;
       margin-right: 10px;
       border-radius: 0;
+      object-fit: 60% 20%;
    }
 
    .example-link{
@@ -689,6 +712,10 @@ li{
       top: -80px;
       right: 10px;
 
+   }
+
+   .footer-nav{
+      height: 53px;
    }
 
    .footer-nav__items{
