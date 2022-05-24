@@ -57,6 +57,12 @@
    max-width: 1440px;
 }
 
+.bi-chevron-left,
+.bi-chevron-right{
+   color: white;
+   font-size: 1.5rem;
+}
+
 /* Header section styles */
 
 .navbar{
@@ -66,7 +72,7 @@
    transform: matrix(1, 0, 0, 1, 0, 0);
    box-shadow: 0 -35px 50px 0.1px #070707;
    display: flex;
-   align-items:1center;
+   align-items:center;
    padding-top: 1;
    /* padding-bottom: px; */
    position: fixed;
