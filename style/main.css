@@ -219,6 +219,7 @@ li{
    height: 40px;
    border-radius: 30px;
    background-color: #070707;
+   transition: 0.5s;
 }
 
 .about-me__action a {
@@ -226,6 +227,10 @@ li{
    color: #FFFFFF;
    border: none;
    padding: 10px;
+}
+
+.about-me__action:hover{
+   transform: scale(1.1);
 }
 
 
@@ -264,6 +269,11 @@ li{
 .program-item__img{
    max-width: 115px;
    height: 90px;
+   transition: 0.5s;
+}
+
+.program-item__img:hover{
+   transform: scale(1.2);
 }
 
 .program-item__subtitle{
@@ -360,6 +370,11 @@ li{
    align-items: center;
    border-radius: 25px;
    border: none;
+   transition: 0.5s;
+}
+
+.contact-action:hover{
+   transform: scale(1.1);
 }
 
 .contact-action a{
@@ -390,6 +405,11 @@ li{
    color: #070707;
    font-size: 30px;
 }
+
+.social-item:hover{
+   transform: scale(1.15);
+}
+
 
 .foot{
    width: 243px;
