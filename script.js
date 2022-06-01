@@ -25,14 +25,14 @@ navItems.forEach(function (item){
    })
 })
 
-const footerNavItems = document.querySelectorAll('.footer-nav__item')
-console.log(footerNavItems)
+const footerNavItem = document.querySelectorAll('.footer-nav__item')
+console.log(footerNavItem)
 const footerNavLinks = document.querySelectorAll('.footer-nav__item-link')
 let j = 1;
 let footerActive = footerNavLinks[0];
 let emptyFooterActive;
 
-footerNavItems.forEach(function (item){
+footerNavItem.forEach(function (item){
    item.addEventListener('click', (e) =>{
       if(j === 1){
          footerActive.classList.remove('footer-my-active');
