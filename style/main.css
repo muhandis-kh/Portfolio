@@ -466,6 +466,18 @@ li{
    color: #828282;
 }
 
+.footer__item__icon{
+   text-align: center;
+}
+
+.non-italic{
+   font-style: normal;
+}
+
+.small-foot{
+   font-size: 0.8rem;
+}
+
 
 /* MEDIA TAGS */
 
