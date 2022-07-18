@@ -149,6 +149,12 @@ li{
    font-family: "Odudo regular", monospace;
 }
 
+.mov{
+   width: 400px;
+   font-size: 1.5rem;
+   background-color: rgba(red, green, blue, 0.6);
+}
+
 .hero-text__position{
    width: 210px;
    height: 35px;
@@ -599,6 +605,7 @@ li{
       flex-direction: column;
       align-items: center;
       text-align: center;
+      row-gap: 30px;
    }
 
    .hero-text__name{
@@ -727,6 +734,9 @@ li{
       padding-bottom: 20px;
    }
 
+   .mov-class{
+      font-size: 0.8rem;
+   }
    .hero-text__position{
       height: 50px;
    }
