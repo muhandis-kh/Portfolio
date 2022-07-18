@@ -643,6 +643,7 @@ li{
    .skills{
       padding-bottom: 70px;
       padding-top: 50px;
+      min-height: 720px;
    }
 
    .program-items{
