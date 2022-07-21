@@ -728,6 +728,10 @@ li{
 }
 @media screen and (max-width: 365px) {
 
+   .container{
+      overflow: hidden;
+   }
+
    .hero-text__name{
       line-height: 1.8rem;
       height: 80px;
