@@ -326,9 +326,17 @@ li{
    border: 1px solid #828282;
 }
 
+.project-text{
+   padding-top: 10px;
+   font-size: 17px;
+}
+
 .example-link{
+   display: flex;
+   justify-content: space-evenly;
    font-size: 18px;
    padding-bottom: 50px;
+   padding-top: 10px;
    /* text-decoration: underline; */
 }
 
