@@ -331,6 +331,20 @@ li{
    font-size: 17px;
 }
 
+.tabs-holder a{
+   font-size: 18px !important
+}
+
+.content-holder{
+   padding-top: 30px;
+}
+
+.section{
+   display: flex;
+   flex-direction: column;
+   padding-top: 30px;
+}
+
 .example-link{
    display: flex;
    justify-content: space-evenly;
@@ -842,6 +856,10 @@ li{
 
    .footer-nav__item label{
       font-size: 13px;
+   }
+
+   .footer-nav__item-link p{
+      font-size: 12px;
    }
 
 }
