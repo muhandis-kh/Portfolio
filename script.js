@@ -48,3 +48,23 @@ footerNavItem.forEach(function (item){
       }
    })
 })
+
+function calculateAge() {
+   // Enter your birthdate here (year, month, day in order)
+   var birthDate = new Date(1998, 7, 8);
+   
+   // Current date
+   var currentDate = new Date();
+
+   // Calculate age
+   var age = currentDate.getFullYear() - birthDate.getFullYear();
+
+   // If the birthday hasn't occurred yet this year, subtract one year
+   if (currentDate.getMonth() < birthDate.getMonth() || 
+       (currentDate.getMonth() === birthDate.getMonth() && currentDate.getDate() < birthDate.getDate())) {
+       age--;
+   }
+
+   // Display age on the HTML page
+   document.getElementById("age").innerHTML = age;
+}
