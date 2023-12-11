@@ -1,38 +1,8 @@
 
 
-@media screen and (max-width:440px) {
-
-   .footer-nav{
-      height: 80px;
-   }
-
-   .footer-nav__item a {
-      text-align: center;
-   }
-
-   .footer-nav__item{
-      display: flex;
-      align-items: center;
-   }
-
-
-}
-
 @media screen and (max-width:365px) {
 
-   .foot{
-      padding-bottom: 70px;
-   }
-
-   .footer-nav{
-      height: 70px;
-   }
-
-   .footer-nav__items{
-      justify-content: space-between;
-   }
-
-   .footer-nav__item:last-child{
-      margin-left: -3px;
+   .hero-text__lang{
+      margin-top: 10px;
    }
 }
